@@ -1,3 +1,5 @@
+Tests for `/register` and `/login` controllers of Socks microservice app.
+
 ###NOTE
 For RegistrationTest.verifyEmptyPasswordIsNotAllowed() test is written to assert HTTP 500 Internal Server Error.
 However, actual `/register` controller allows us to register with an empty password, which I don't think is expected. At
