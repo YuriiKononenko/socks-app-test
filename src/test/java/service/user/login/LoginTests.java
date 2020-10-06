@@ -4,9 +4,6 @@ import api.service.user.login.LoginService;
 import api.service.user.login.LoginServiceImpl;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
-//import org.junit.Test;
-//import org.junit.runner.RunWith;
-//import org.junit.runners.JUnit4;
 
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.MatcherAssert.assertThat;
